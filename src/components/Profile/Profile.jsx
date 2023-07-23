@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Profile from './components/Profile/Profile.jsx';
+
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;

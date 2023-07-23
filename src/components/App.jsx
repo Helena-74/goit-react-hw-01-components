@@ -1,8 +1,8 @@
 import React from 'react';
-import Profile from './components/Profile/Profile.jsx';
-import user from './components/Profile/user.json';
+import Profile from './Profile/Profile.jsx';
+import user from './Profile/user.json';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Profile
@@ -12,6 +12,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      
     </div>
   );
 };
